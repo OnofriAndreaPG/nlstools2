@@ -1,3 +1,8 @@
+# nlstools 1.0-3.0000
+
+* forked and renamed to nlstools2
+* Added plot.nls method
+
 # nlstools 1.0-2.9000
 
 * Document with roxygen2, helped by [Rd2roxygen](https://yihui.name/rd2roxygen/)

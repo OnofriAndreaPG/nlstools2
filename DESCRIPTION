@@ -1,25 +1,16 @@
-Package: nlstools
+Package: nlstools2
 Title: Tools for Nonlinear Regression Analysis
-Version: 1.0-2.9000
-Authors@R: c(
-    person("Florent", "Baty", email = "florent.baty@gmail.com", role = c("aut", "cre")),
-    person("Marie-Laure", "Delignette-Muller", email = "marielaure.delignettemuller@vetagro-sup.fr", role = c("aut")),
-    person("Sandrine", "Charles", email = "", role = c("aut")),
-    person("Jean-Pierre", "Flandrois", email = "", role = c("aut")),
-    person("Christian", "Ritz", email = "", role = c("aut")),
-    person("Sébastien", "Rochette", email = "sebastien@thinkr.fr", role = c("aut"))
-  )
-Description: Several tools for assessing the quality of fit of a
-        gaussian nonlinear model are provided.
+Version: 1.0-3.3000
+Author: Andrea Onofri <andrea.onofri@unipg.it>
+Maintainer: Andrea Onofri <onofri@unipg.it>
+Description: Several tools for nonlinear regression analyses are provided.
+             The package is a fork of nlstools, by Baty et al., 2018
 License: GPL-3        
-URL: https://github.com/ThinkR-open/nlstools
-BugReports: https://github.com/ThinkR-open/nlstools/issues
+URL: https://github.com/OnofriAndreaPG/nlstools2
+BugReports: https://github.com/OnofriAndreaPG/nlstools2/issues
 Imports:
     graphics,
     grDevices,
     stats
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
-Suggests: 
-    testthat
